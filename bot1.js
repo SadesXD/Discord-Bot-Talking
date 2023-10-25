@@ -6,6 +6,8 @@ const chatbot = new bot({ name: "bot1" });
 const { channelId } = require("./config.json");
 require("dotenv").config();
 
+
+//test
 client.on("ready", () => {
   console.log(`${client.user.tag} is ready !`);
   client.channels.cache.get(channelId).send("Heyyowww !");
